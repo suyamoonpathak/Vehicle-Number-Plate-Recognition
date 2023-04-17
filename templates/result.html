@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Plate Recognition Result</title>
+</head>
+<link href="../static/styles.css" rel="stylesheet" />
+<body>
+	<h1>Number Plate Recognition Result</h1>
+
+	{% if text %}
+		<p class="resultsParagraph">The number plate is: <span style="color:#4BB543">{{ text }}<span></p>
+	{% else %}
+		<p class="resultsParagraph" style="color:#f32013">Sorry an error occured!</p>
+	{% endif %}
+		
+	<br>
+	<a href="{{ url_for('home') }}"><button type="button" class="upload-button">Back to Home</button><a>
+</body>
+</html>
