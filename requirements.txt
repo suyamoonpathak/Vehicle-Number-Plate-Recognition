@@ -72,7 +72,7 @@ pymongo==4.3.3
 pyparsing==3.0.9
 pytesseract==0.3.10
 python-dateutil==2.8.2
-python-dotenv==1.0.0
+python-dotenv==0.21.1
 python2==1.2
 python3-openid==3.2.0
 pytz==2022.6
