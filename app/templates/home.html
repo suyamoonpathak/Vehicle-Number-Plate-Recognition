@@ -28,6 +28,7 @@
         const uploadButton = document.querySelector(".upload-button");
         const imagePreview = document.querySelector(".image-preview");
         const loadingIcon = document.querySelector(".loading-icon");
+        const submitButton = document.getElementById("submitbtn")
     
         fileInput.addEventListener("change", function() {
             const file = this.files[0];
@@ -46,6 +47,9 @@
                 imagePreview.style.display = "none";
             }
         });
+
+        submitButton.onclick = function() {submitButton.innerHTML='Loading...  <span class="loader"></span>'};
+
     </script>
 </body>
 </html>    

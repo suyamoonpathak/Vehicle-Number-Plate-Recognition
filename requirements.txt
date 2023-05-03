@@ -11,3 +11,4 @@ Pillow==9.5.0
 pytesseract==0.3.10
 Werkzeug==2.2.3
 gunicorn==19.7.1
+ocr-nanonets-wrapper==1.1
